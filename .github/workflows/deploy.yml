@@ -25,4 +25,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        run: npx gh-pages -d build --branch master
+        run: |
+          git config --global user.email "shreyasingh200297.ss@gmail.com"
+          git config --global user.name "shreya20singh"
+          npx gh-pages -d build --branch master
