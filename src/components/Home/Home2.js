@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/pic.png";
+import AvatarPicSvg from './AvatarPicSvg';
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -21,7 +22,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Swift, React Native, Java</b>
+                <b className="purple"> Swift, JavaScript, Dart and Java</b>
               </i>
               <br />
               <br />
@@ -41,8 +42,8 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+            <Tilt>            
+              <AvatarPicSvg /> {/* Use the AvatarPicSvg component */}
             </Tilt>
           </Col>
         </Row>
@@ -81,3 +82,4 @@ function Home2() {
   );
 }
 export default Home2;
+
