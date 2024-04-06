@@ -31,7 +31,7 @@ function Home2() {
                 <b className="purple">IOS Apps </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Backend Dvelopment
+                  Backend Development
                 </b>
               </i>
               <br />
